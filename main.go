@@ -21,4 +21,5 @@ func getMinute(minute int, second int) int {
 func main() {
 	http.HandleFunc("/", handler)
 	log.Fatal(http.ListenAndServe(":8888", nil))
+	print("Hello There")
 }
